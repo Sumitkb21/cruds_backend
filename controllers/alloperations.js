@@ -158,7 +158,7 @@ export const sendEntry = async(req,res)=>{
             },
           });
 
-          const email = "pinkeshm21@iitk.ac.in";
+          const email = "info@redpositive.in";
 
           let mailOptions = {
             from: process.env.SMTP_MAIL,
